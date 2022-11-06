@@ -18,15 +18,6 @@ export default function Header() {
                                 height={IMAGES.LOGO.HEIGHT}
                             />
                         </Link>
-                        <div>
-                            <ul>
-                                <li>
-                                    <Link href={URLS.ABOUT.LINK}>
-                                        {URLS.ABOUT.NAME}
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </header>
             </Container>
