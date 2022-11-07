@@ -57,7 +57,7 @@ const Container = styled.header`
 
         .content__table_overflow{
             overflow:auto;
-            height: 400px;
+            max-height: 400px;
         }
 
         .content__table_action{
