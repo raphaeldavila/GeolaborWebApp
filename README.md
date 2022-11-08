@@ -1,7 +1,7 @@
 
-# API Geolabor
+# Webapp Geolabor
 
-Projeto desenvolvido com base experimental para a Geolabor. Este projeto é composto por duas camadas de desenvolvimento.
+Projeto experimental desenvolvido para a Geolabor. Este projeto é composto por duas camadas de desenvolvimento.
 
 
 ### API
@@ -32,13 +32,12 @@ Com as dependências instaladas, precisamos setar as variáveis de ambiente que 
 
 Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
 
-`NEXT_PUBLIC_API_URL`
+`NEXT_PUBLIC_VERCEL_BASE_API_URL`
 
-Nesse projeto, estamos utilizando o mongodb como nosso banco não relacional.
 
 #### env.example
 
-`NEXT_PUBLIC_API_URL=http://localhost:5000/api`
+`NEXT_PUBLIC_VERCEL_BASE_API_URL=http://localhost:5000/api`
 
 ### Iniciar aplicação
 
